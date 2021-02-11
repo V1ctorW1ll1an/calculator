@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Display.scss';
 
 export interface Props {
-  value: number
+  value: string
 }
 
 export default class Display extends Component<Props> {
