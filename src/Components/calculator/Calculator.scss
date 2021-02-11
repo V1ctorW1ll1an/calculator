@@ -1,0 +1,11 @@
+.Calculator {
+  $block: #{&};
+
+  height: 32rem;
+  width: 23.5rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: 1fr repeat(5, 4.8rem);
+}
